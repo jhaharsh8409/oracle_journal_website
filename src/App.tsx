@@ -269,7 +269,7 @@ const App = () => {
 
           <div className="mt-16 flex flex-col md:flex-row items-center gap-8">
             <a 
-              href="/downloads/oracle-journal.apk" 
+              href="/downloads/app.apk" 
               className="px-12 py-5 bg-oracle-emerald hover:bg-oracle-emerald/80 text-black font-black text-xl rounded-2xl transition-all flex items-center gap-3 w-full md:w-auto justify-center"
             >
               <Download className="w-6 h-6" /> Start Download Now
