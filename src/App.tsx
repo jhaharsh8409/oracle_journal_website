@@ -97,7 +97,7 @@ const App = () => {
           >
             <a href="#features" className="text-xl text-gray-400" onClick={() => setIsMenuOpen(false)}>Features</a>
             <a href="#install" className="text-xl text-gray-400" onClick={() => setIsMenuOpen(false)}>Install Guide</a>
-            <a href="/downloads/app-release.apk" className="w-full py-3 bg-oracle-emerald text-black text-center font-bold rounded-xl">
+            <a href="/downloads/oracle-journal.apk" className="w-full py-3 bg-oracle-emerald text-black text-center font-bold rounded-xl">
               Download APK
             </a>
           </motion.div>
