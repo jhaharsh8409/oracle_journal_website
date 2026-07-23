@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { 
-  Bot, 
   Brain, 
   LineChart, 
   ShieldCheck, 
@@ -34,11 +33,6 @@ const App = () => {
   };
 
   const features = [
-    {
-      icon: <Bot className="w-8 h-8 text-oracle-emerald" />,
-      title: "AI Coaching",
-      description: "Real-time analysis of your trades powered by Llama 3.1 8B. Get actionable feedback on every entry and exit."
-    },
     {
       icon: <Brain className="w-8 h-8 text-oracle-gold" />,
       title: "Psychology Tracking",
@@ -117,10 +111,10 @@ const App = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="inline-block px-4 py-1.5 rounded-full border border-oracle-emerald/20 bg-oracle-emerald/5 text-oracle-emerald text-sm font-semibold mb-6 uppercase tracking-wider">
-              Powered by AI & Psychology
+              Built for Disciplined Traders
             </span>
             <h1 className="text-5xl md:text-8xl font-black text-white mb-8 leading-[1.1] tracking-tight">
-              Master Your <span className="text-gradient">Trades</span> <br className="hidden md:block" /> with AI Wisdom
+              Master Your <span className="text-gradient">Trades</span> <br className="hidden md:block" /> with Clarity
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
               Oracle Journal is the elite trading companion that tracks your performance and coaches your psychology for disciplined growth.
@@ -152,7 +146,7 @@ const App = () => {
             <div className="aspect-[16/9] glass-morphism rounded-3xl p-4 md:p-8 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-midnight-black via-transparent to-transparent z-10" />
               
-              {/* Fake UI Elements */}
+              {/* Performance preview */}
               <div className="flex gap-4 items-start h-full">
                 <div className="w-1/3 space-y-4">
                   <div className="h-32 bg-white/5 rounded-2xl p-4 border border-white/10">
@@ -176,15 +170,15 @@ const App = () => {
                 <div className="flex-1 space-y-4 h-full relative">
                    <div className="h-full bg-white/5 rounded-2xl p-6 border border-white/10">
                       <div className="flex items-center gap-3 mb-6">
-                        <div className="w-8 h-8 rounded-lg bg-oracle-emerald flex items-center justify-center text-black font-bold">AI</div>
-                        <span className="font-bold">Oracle AI Coach</span>
+                        <div className="w-8 h-8 rounded-lg bg-oracle-emerald flex items-center justify-center text-black font-bold">P&L</div>
+                        <span className="font-bold">Performance Overview</span>
                       </div>
                       <div className="space-y-4">
-                        <div className="bg-white/5 p-4 rounded-xl text-sm text-left">
-                          Analyze my last 5 losing trades on XAUUSD.
+                        <div className="bg-white/5 p-4 rounded-xl text-sm text-left text-gray-300">
+                          Recent trades show stronger results when your plan is followed.
                         </div>
                         <div className="bg-oracle-emerald/10 p-4 rounded-xl text-sm text-left border border-oracle-emerald/20 text-oracle-emerald">
-                          "I've detected a pattern. You are entering Gold shorts near support levels when FOMO is high. Your win rate drops to 12% in these conditions. Consider waiting for a retest of the supply zone at 2150."
+                          Review your strategy, entry notes, and psychology tags to find the patterns that matter.
                         </div>
                       </div>
                    </div>
@@ -262,14 +256,14 @@ const App = () => {
               <div className="w-10 h-10 rounded-full bg-oracle-emerald text-black flex items-center justify-center font-bold flex-shrink-0">3</div>
               <div>
                 <h4 className="text-xl font-bold mb-2">Launch Oracle</h4>
-                <p className="text-gray-400">Open the file, follow the prompts, and start your journey with your new AI trading coach.</p>
+                <p className="text-gray-400">Open the file, follow the prompts, and start tracking your trading journey.</p>
               </div>
             </div>
           </div>
 
           <div className="mt-16 flex flex-col md:flex-row items-center gap-8">
             <a 
-              href="/downloads/app.apk" 
+              href="/downloads/oracle-journal.apk" 
               className="px-12 py-5 bg-oracle-emerald hover:bg-oracle-emerald/80 text-black font-black text-xl rounded-2xl transition-all flex items-center gap-3 w-full md:w-auto justify-center"
             >
               <Download className="w-6 h-6" /> Start Download Now
